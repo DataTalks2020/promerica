@@ -1,0 +1,374 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22 oct. 2020, 15:59:13
+    Author     : arielrubi
+*/
+.formulario-gray{
+    background: #959698;
+    background-color: #959698;
+}
+body, html{
+
+}
+.imgPadre1{
+    z-index: 10;
+    padding: 0;
+}
+.imgPadre2{
+    z-index: 9;
+}
+.img-personas{
+    width: 800px;
+    margin-top: -125px;
+    height: 680px;
+}
+.img-cuotas{
+    width: 350px;
+    margin-top: 100px;
+}
+.logo{
+    width: 250px;
+}
+.text-verde-claro{
+    color: #50b548;
+}
+.bg-verde-claro{
+    background: #50b548;
+    background-color: #50b548;
+    color: #fff;
+}
+.bg-verde-oscuro{
+    background: #116937;
+    background-color: #116937;
+    color: #fff;
+}
+.form-check-label{
+    font-size: 13px;
+}
+.form-check-input { 
+    margin-top: 3px;
+}
+.text-terminos, .text-aplican{
+    font-size: 10px;
+}
+.cuadros-colores{ 
+    height: 300px; 
+}
+.cuadros-colores img{ 
+    margin-left: 15px;
+    margin-top: 75px;
+    width: 320px;
+}
+.cuadros-colores img1{  
+
+}
+.cuadros-colores .img2{ 
+
+}
+.cuadros-colores .img3{ 
+    margin-top: 0;
+}
+.bg-gray{
+    background: #727376;
+    background-color: #727376;
+}
+.text-solicitar{
+    margin-top: -115px;
+}
+.gracias{
+    margin-top: 150px;
+}
+.gracias p{
+    text-transform: uppercase;
+    font-size: 25px;
+}
+.segundo-texto-gracias{
+    margin-top: -21px;
+}
+.footer-img{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.logo-gracias{
+    width: 25%;
+}
+
+@media only screen and (max-width: 1920px){
+    .img-personas {
+        width: 700px; 
+    }
+
+}
+@media only screen and (max-width: 1700px){
+    .img-personas {
+        width: 600px; 
+    }
+    .img-cuotas { 
+        margin-left: 120px;
+    }
+        .logo-gracias {
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 1540px){
+    .img-personas {
+        width: 550px; 
+    }
+    .img-cuotas {
+        margin-left: 90px;
+    }
+    .cuadros-colores img { 
+        width: 300px;
+    }
+}
+@media only screen and (max-width: 1380px){
+    .img-personas {
+        width: 500px; 
+    }
+    .cuadros-colores img { 
+        width: 250px;
+    }
+    .cuadros-colores .img3 {
+        margin-top: 15px;
+    }
+    .text-solicitar {
+        margin-top: -80px;
+    }
+}
+@media only screen and (max-width: 1280px){
+    .img-personas {
+        width: 450px; 
+    }
+    .img-cuotas {
+        margin-left: 20px;
+    }
+    .cuadros-colores img {
+        width: 225px;
+    }
+}
+@media only screen and (max-width: 1190px){
+    .img-personas {
+        width: 400px;
+        height: 560px;
+        margin-top: -80px;
+    }
+    .img-cuotas {
+        width: 300px; 
+    } 
+}
+@media only screen and (max-width: 1080px){
+    .img-cuotas {
+        width: 250px; 
+    }
+    .img-personas {
+        width: 350px;
+        height: 460px;
+    }
+    .cuadros-colores .img3 {
+        margin-left: 0px;
+    }
+    .cuadros-colores img {
+        width: 200px;
+    }
+}
+@media only screen and (max-width: 980px){
+
+
+}
+@media only screen and (max-width: 860px){
+
+
+}
+@media only screen and (max-width: 768px){
+    .img-personas {
+        width: 270px;
+        height: 310px;
+        margin-top: -48px;
+    }
+    .img-cuotas {
+        width: 200px;
+        margin-top: 50px;
+    }
+    .cuadros-colores {
+        height: 240px;
+    }
+    .cuadros-colores img {
+        width: 160px;
+    }
+    .cuadros-colores .img1 {
+        margin-left: 32px;
+    }
+    .cuadros-colores .img3 {
+        margin-top: 35px;
+    }
+    .text-solicitar {
+        margin-top: -50px;
+    }
+    .logo-gracias{
+        width: 100%;
+    }
+    .gracias p{ 
+        font-size: 15px;
+    }
+    .segundo-texto-gracias {
+        margin-top: -16px;
+    }
+}
+@media only screen and (max-width: 576px){ 
+    .cuadros-colores .img3 {
+        margin-top: 18px;
+    }
+    .img-personas {
+        width: 220px;
+        height: 228px;
+        margin-top: -40px;
+    }
+    .img-cuotas {
+        width: 160px;
+        margin-top: 35px;
+    }
+    .cuadros-colores {
+        height: 150px;
+    }
+    .cuadros-colores img {
+        width: 120px;
+        margin-top: 45px;
+    }
+    .cuadros-colores .img1 {
+        margin-left: 30px; 
+    }
+    .text-solicitar {
+        margin-top: -42px;
+    }
+    .text-solicitar label{
+        font-size: 12px;
+    }
+    .imgPadre1 { 
+        padding: 0px 15px;
+    }
+    .imgPadre1 img{
+        width: 450px !important;
+    }
+}
+@media (max-width: 414px){
+    .imgPadre1 img{
+        width: 441px !important;
+    } 
+}
+@media (max-width: 380px){
+    .imgPadre1 img {
+        width: 405px !important;
+    }
+    .img-cuotas {
+        margin-left: 35px;
+        width: 145px;
+    }
+}
+@media (max-width: 320px){ 
+    .cuadros-colores img {
+        width: 100px;
+    }
+    .cuadros-colores {
+        height: 130px;
+    }
+    .img-personas {
+        width: 170px;
+        height: 170px;
+        margin-top: -30px;
+    }
+    .img-cuotas {
+        width: 110px;
+    }
+    .imgPadre1 img{
+        width: 350px !important;
+    }
+}
+@media only screen and (max-width: 900px) and (orientation: landscape) { 
+    .img-personas {
+        width: 300px;
+        height: 380px;
+        margin-top: -60px;
+    }
+    .img-cuotas {
+        margin-left: 35px;
+        width: 190px;
+    }
+    .cuadros-colores {
+        height: 230px;
+    }
+    .cuadros-colores img {
+        width: 150px;
+    }
+    .cuadros-colores .img3 {
+        margin-top: 40px;
+    }
+    .text-solicitar {
+        margin-top: -50px;
+    }
+    .form-check-label {
+        font-size: 10px;
+    }
+    .gracias {
+        margin-top: 50px;
+    }
+    .logo-gracias {
+        width: 60%;
+    }
+}
+@media only screen and (max-width: 760px) and (orientation: landscape) {
+    .img-personas {
+        width: 260px;
+        height: 280px;
+        margin-top: -45px;
+    }
+    .img-cuotas { 
+        width: 180px;
+        margin-top: 50px;
+    }
+    .cuadros-colores img {
+        width: 140px;
+    }
+    .cuadros-colores .img1 {
+        margin-left: 35px;
+    }
+    .logo {
+        width: 215px;
+    }
+}
+@media only screen and (max-width: 680px) and (orientation: landscape) {
+    .cuadros-colores img {
+        width: 130px;
+    }
+    .img-personas {
+        width: 240px;
+    }
+    .logo {
+        width: 190px;
+    }
+    .texto-bienvenida {
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 570px) and (orientation: landscape) { 
+    .cuadros-colores img {
+        width: 160px;
+    }
+    .cuadros-colores {
+        height: 200px;
+    }
+    .cuadros-colores .img3 {
+        margin-top: 5px;
+    }
+    .imgPadre1 img {
+        width: 600px !important;
+    }
+    .img-cuotas {
+        width: 220px;
+        margin-left: 10px;
+    }
+}
