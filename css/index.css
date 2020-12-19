@@ -36,6 +36,9 @@ body, html{
 .text-verde-claro{
     color: #50b548;
 }
+.text-verde-claro:hover{
+    color: #50b548;
+}
 .bg-verde-claro{
     background: #50b548;
     background-color: #50b548;

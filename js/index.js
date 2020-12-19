@@ -1,13 +1,3 @@
-function limpiarFormulario() {
-    $('input').val('');
-    $('#errorIden').text('');
-    $('#errorEmail').text('');
-    $('#errorTel').text('');
-    $('#errorApe').text('');
-    $('#errorNom').text('');
-    return false;
-}
-
 $('#tipoidentificacion').on('change', function () {
     var tipo = $(this).val();
     var texto = '';
@@ -165,14 +155,17 @@ $('#btnAplicar').on('click', function () {
     var email = $('#email').val();
     var nombre = $('#nombre').val();
     var apellido = $('#apellido').val();
+    var empresa = $('#empresa').val();
+    var puesto = $('#puesto').val();
     var texto = '';
     var numero = /^[0-9]+$/;
+    var expreCor = /^([a-zA-Z0-9\_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z]{2,63})+$/;
     if (tipo == '' || tipo == 0 || tipo.length == 0) {
         texto = 'Seleccione un tipo de identificación';
         $('#errorTipoIden').html(texto);
         return false;
-    }else{
-         $('#errorTipoIden').html(texto);
+    } else {
+        $('#errorTipoIden').html(texto);
     }
     if (tipo == 1) {
         if (identificacion.length != 9) {
@@ -221,15 +214,12 @@ $('#btnAplicar').on('click', function () {
         }
     }
     texto = '';
-    var expreCor = /^([a-zA-Z0-9\_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z]{2,63})+$/;
     if (!expreCor.test(email)) {
         texto = 'Ingrese un correo válido';
         $('#errorEmail').text(texto);
         return false;
     }
-
     texto = '';
-    var numero = /^[0-9]+$/;
     if (telefono.length != 8) {
         texto = 'Ingrese un celular válido';
         $('#errorTel').text(texto);
@@ -245,6 +235,22 @@ $('#btnAplicar').on('click', function () {
         texto = 'Ingrese un celular válido';
         $('#errorTel').text(texto);
         return false;
+    }
+    texto = '';
+    if (empresa == '' || empresa == 0 || empresa.length == 0) {
+        texto = 'Ingrese una empresa donde labora';
+        $('#errorEmp').html(texto);
+        return false;
+    } else {
+        $('#errorEmp').html(texto);
+    }
+    texto = '';
+    if (puesto == '' || puesto == 0 || puesto.length == 0) {
+        texto = 'Ingrese el puesto que desempeña';
+        $('#errorPue').html(texto);
+        return false;
+    } else {
+        $('#errorPue').html(texto);
     }
 
 
