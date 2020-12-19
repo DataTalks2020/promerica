@@ -100,7 +100,9 @@ body, html{
 .logo-gracias{
     width: 25%;
 }
-
+.tercer-text-gracias{
+    font-size: 9px !important;
+}
 @media only screen and (max-width: 1920px){
     .img-personas {
         width: 700px; 
@@ -290,6 +292,9 @@ body, html{
     .imgPadre1 img{
         width: 350px !important;
     }
+    .gracias {
+        margin-top: 50px;
+    }
 }
 @media only screen and (max-width: 900px) and (orientation: landscape) { 
     .img-personas {
@@ -316,11 +321,17 @@ body, html{
     .form-check-label {
         font-size: 10px;
     }
-    .gracias {
+    .gracias .gracias {
         margin-top: 50px;
-    }
+    } 
     .logo-gracias {
-        width: 60%;
+        width: 50%;
+    }
+    .gracias p { 
+        font-size: 20px;
+    }
+    .gracias {
+        margin-top: -50px;
     }
 }
 @media only screen and (max-width: 760px) and (orientation: landscape) {
@@ -373,5 +384,11 @@ body, html{
     .img-cuotas {
         width: 220px;
         margin-left: 10px;
+    }
+    .gracias p {
+        font-size: 17px;
+    }
+    .tercer-text-gracias{
+        font-size: 7px !important;
     }
 }
