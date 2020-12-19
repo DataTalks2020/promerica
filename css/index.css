@@ -105,7 +105,9 @@ body, html{
 }
 @media only screen and (max-width: 1920px){
     .img-personas {
-        width: 700px; 
+        width: 610px; 
+        margin-top: -103px;
+        height: 573px;
     }
 
 }
@@ -122,7 +124,9 @@ body, html{
 }
 @media only screen and (max-width: 1540px){
     .img-personas {
-        width: 550px; 
+        width: 550px;
+        height: 525px;
+        margin-top: -96px;
     }
     .img-cuotas {
         margin-left: 90px;
@@ -133,7 +137,9 @@ body, html{
 }
 @media only screen and (max-width: 1380px){
     .img-personas {
-        width: 500px; 
+        width: 500px;
+        height: 485px;
+        margin-top: -87px;
     }
     .cuadros-colores img { 
         width: 250px;
@@ -159,7 +165,7 @@ body, html{
 @media only screen and (max-width: 1190px){
     .img-personas {
         width: 400px;
-        height: 560px;
+        height: 430px;
         margin-top: -80px;
     }
     .img-cuotas {
@@ -172,7 +178,8 @@ body, html{
     }
     .img-personas {
         width: 350px;
-        height: 460px;
+        height: 375px;
+        margin-top: -60px;
     }
     .cuadros-colores .img3 {
         margin-left: 0px;
